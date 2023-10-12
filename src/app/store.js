@@ -1,5 +1,6 @@
 import { combineReducers, configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
 import userSlice from "../features/userSlice";
+import { chatSlice } from "../features/chatSlice";
 import { persistReducer,persistStore } from "redux-persist";
 import createFilter from "redux-persist-transform-filter"
 import storage from "redux-persist/lib/storage";
