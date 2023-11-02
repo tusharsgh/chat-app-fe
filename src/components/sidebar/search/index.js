@@ -1,2 +1,3 @@
-import  Search  from "./Search.jsx";
-export {Search};
+import Search from "./Search";
+
+export { Search};

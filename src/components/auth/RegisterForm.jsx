@@ -26,11 +26,13 @@ export default function RegisterForm() {
         resolver:yupResolver(signUpSchema)
       });
       const onSubmit = async (data) => {
+        console.log(data);
         dispatch(changeStatus("loading"));
         if (picture) {
           //upload to cloudinary and then register user
           await uploadImage().then(async (response) => {
             console.log(response.secure_url);
+
             let res = await dispatch(
               registerUser({ ...data, picture: response.secure_url })
             );

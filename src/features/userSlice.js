@@ -24,7 +24,7 @@ export const registerUser = createAsyncThunk(
     try {
       const { data } = await axios.post(`${AUTH_ENDPOINT}/register`, {
         ...values,
-      },{ headers:{ "Access-Control-Allow-Origin": "*", }});
+      });
       return data;
     } catch (error) {
       return rejectWithValue(error.response.data.error.message);

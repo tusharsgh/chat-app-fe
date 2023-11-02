@@ -18,6 +18,7 @@ export default function RegisterForm() {
     resolver: yupResolver(signInSchema),
   });
   const onSubmit = async (values) => {
+     console.log("clicked");
     let res = await dispatch(loginUser({ ...values }));
     console.log(res);
     if (res?.payload?.user) {
