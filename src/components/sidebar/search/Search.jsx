@@ -8,7 +8,7 @@ export default function Search({ searchLength, setSearchResults }) {
   const { token } = user;
   const [show, setShow] = useState(false);
   const handleSearch = async (e) => {
-    if (e.target.value && e.key === "Enter") {
+    if (e.target.value ) {
       try {
         const { data } = await axios.get(
           `${process.env.REACT_APP_API_ENDPOINT}/user?search=${e.target.value}`,
@@ -36,8 +36,8 @@ export default function Search({ searchLength, setSearchResults }) {
             {show || searchLength > 0 ? (
               <span
                 className="w-8 flex items-center justify-center rotateAnimation cursor-pointer"
-                onClick={() => setSearchResults([])}
-              > 
+                onChange={() => setSearchResults([])}
+              >
                 <ReturnIcon className="fill-green_1 w-5" />
               </span>
             ) : (

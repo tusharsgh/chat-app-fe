@@ -1,7 +1,7 @@
 import React,{useRef,useState} from 'react';
 import{useForm} from"react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
-import {signUpSchema } from '../../utils/validations';
+import {signUpSchema } from '../../utils/validation';
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import AuthInput from './AuthInput';
