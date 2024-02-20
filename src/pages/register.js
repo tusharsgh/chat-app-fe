@@ -1,6 +1,6 @@
 import React from 'react'
 import RegisterForm from '../components/auth/RegisterForm';
-function Registration() {
+function Register() {
   return (
     <div className="min-h-screen dark:bg-dark_bg_1 flex items-center justify-center py-[19px] overflow-hidden">
       {/*Container*/}
@@ -13,4 +13,4 @@ function Registration() {
   );
 }
 
-export default Registration
+export default Register

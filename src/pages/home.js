@@ -67,7 +67,8 @@ function Home({ socket }) {
     socket.on("end call", () => {
       setShow(false);
       setCall({ ...call, callEnded: true, receiveingCall: false });
-      myVideo.current.srcObject = null;
+     if( myVideo.current){
+      myVideo.current.srcObject = null;}
       if (callAccepted) {
         connectionRef?.current?.destroy();
       }
@@ -96,7 +97,8 @@ function Home({ socket }) {
       });
     });
     peer.on("stream", (stream) => {
-      userVideo.current.srcObject = stream;
+      if(userVideo.current){
+      userVideo.current.srcObject = stream;}
     });
     socket.on("call accepted", (signal) => {
       setCallAccepted(true);
@@ -126,7 +128,8 @@ function Home({ socket }) {
   const endCall = () => {
     setShow(false);
     setCall({ ...call, callEnded: true, receiveingCall: false });
-    myVideo.current.srcObject = null;
+   if(myVideo.current){
+    myVideo.current.srcObject = null;}
     socket.emit("end call", call.socketId);
     connectionRef?.current?.destroy();
   };
@@ -140,7 +143,8 @@ function Home({ socket }) {
   };
 
   const enableMedia = () => {
-    myVideo.current.srcObject = stream;
+    if(myVideo.current){
+    myVideo.current.srcObject = stream;}
     setShow(true);
   };
   //get Conversations

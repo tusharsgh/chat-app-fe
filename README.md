@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# FriendFlow - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FriendFlow's frontend is built using React, Redux, and Tailwind CSS, offering a seamless and intuitive user interface for the online chatting application. With FriendFlow, users can enjoy a modern and responsive design while leveraging the power of React for dynamic rendering, Redux for state management, and Tailwind CSS for efficient styling.
 
-## Available Scripts
+## Technologies Used
 
-In the project directory, you can run:
+FriendFlow's frontend utilizes the following key technologies:
 
-### `npm start`
+`React:` A JavaScript library for building user interfaces, allowing for efficient rendering and component-based development.<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`Redux:` A predictable state container for JavaScript applications, facilitating centralized state management and predictable data flow.<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`Tailwind CSS:` A utility-first CSS framework for quickly building custom designs without having to leave your HTML, enabling rapid styling and customization.<br/>
 
-### `npm test`
+## Usage
+Signing up for a new account or logging in if they already have an account.<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Exploring the user interface to start new conversations, send messages, share files, and initiate video conferences seamlessly.<br/>
 
-### `npm run build`
+Enjoying the modern and responsive design 
+powered by React, Redux, and Tailwind CSS for an enhanced user experience.<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+* **Real-time Messaging:** Enjoy instant   messaging with friends in real-time.<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **File Upload:** Share files with friends conveniently through the application.<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **Video Conferencing:** Conduct video conferences with your friends for effective communication.<br/>
 
-### `npm run eject`
+* **Group Formation:** Create groups with multiple users for group conversations and collaboration.<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* **User Authentication:** Securely sign up and log in to your account to access all features.<br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **User Profile:** Customize your profile with your name, profile picture, and other details.<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* **Search Functionality:** Easily find and connect with friends by searching their usernames.<br/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* **Online Status Detection:** View the online status of friends to know when they are available for communication.<br/>
 
-## Learn More
+* **Message Timestamps:** Messages are displayed with timestamps to provide context and reference.<br/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* **Responsive Design:** Access FriendFlow seamlessly across devices with a responsive user interface.<br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## FriendFLow-Glance
+ 
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+|  **Sign-up** | **Sign-in** |
+| :-------------: | :-------------: |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/be062f6f-55a0-4c03-bd43-0b7defc98884" width='400'>  | <img width='400'  src="https://github.com/tusharsgh/koinex/assets/72065122/3025cf52-0b96-480a-8f08-d9bc5c064ca4">  |
 
-### Analyzing the Bundle Size
+---
+|  **DashBoard** | **Search-Users** |
+| :-------------: | :-------------: |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/c2956050-306c-4f42-87bd-600b0d8472d1" width='400'>  | <img width='400'  src="https://github.com/tusharsgh/koinex/assets/72065122/e88f9e4a-a158-423d-8a1f-db0bc1810c57">  |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+|  **GroupChat-Creation** | **GroupChat** |
+| :-------------: | :-------------: |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/3f8dccdc-b7df-4bda-a4a0-db21caecf2c9" width='400'>  | <img src="https://github.com/tusharsgh/koinex/assets/72065122/c792a893-dbe1-4981-9f46-427bfa37f62a" width='400'>  |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
+|  **VideoCall-Request** | **VideoCall** |
+| :-------------: | :-------------: |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/91fed22a-a3fb-40bc-b091-90731e259794" width='400'>  | <img width='400'  src="https://github.com/tusharsgh/koinex/assets/72065122/bdce74bb-f255-4b09-a328-0e19c4a7d89e">  |
 
-### Advanced Configuration
+---
+|  **File-sending preview** | **File-sent** |
+| :-------------: | :-------------: |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/1f1e954e-adf0-4eeb-a407-6bd7929adc7a" width='400'>  | <img width='400'  src="https://github.com/tusharsgh/koinex/assets/72065122/cb996ae5-9f61-4c5c-ac6a-6adba6957087">  |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To run FriendFlow locally, follow these steps:
 
-### `npm run build` fails to minify
+1.  Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`https://github.com/tusharsgh/chat-app-fe.git `
+<br/> 
+
+2. Install dependencies:
+
+`npm install`
+
+3. Create .env file:
+
+~~~
+REACT_APP_API_ENDPOINT="FriendFlowapi"
+
+REACT_APP_CLOUD_NAME="Cloudinary_API_NAME"
+
+REACT_APP_CLOUD_SECRET="Cloudinary_API_KEY"
+~~~
+
+
+4. Start the development server:
+
+`npm start
+`
+## Backend
+**Link for backend**:https://github.com/tusharsgh/chat-app_be

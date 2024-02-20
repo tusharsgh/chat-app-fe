@@ -57,6 +57,7 @@ export default function CreateGroup({ setShowCreateGroup }) {
         users,
         token: user.token,
       };
+      console.log(values);
       let newConvo = await dispatch(createGroupConversation(values));
       setShowCreateGroup(false);
     }
