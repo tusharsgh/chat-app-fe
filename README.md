@@ -47,28 +47,28 @@ powered by React, Redux, and Tailwind CSS for an enhanced user experience.<br/>
 
 |  **Sign-up** | **Sign-in** |
 | :-------------: | :-------------: |
-| <img src="https://github.com/tusharsgh/koinex/assets/72065122/be062f6f-55a0-4c03-bd43-0b7defc98884" width='400'>  | <img width='400'  src="https://github.com/tusharsgh/koinex/assets/72065122/3025cf52-0b96-480a-8f08-d9bc5c064ca4">  |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/be062f6f-55a0-4c03-bd43-0b7defc98884" width='800'>  | <img width='800'  src="https://github.com/tusharsgh/koinex/assets/72065122/3025cf52-0b96-480a-8f08-d9bc5c064ca4">  |
 
 ---
 |  **DashBoard** | **Search-Users** |
 | :-------------: | :-------------: |
-| <img src="https://github.com/tusharsgh/koinex/assets/72065122/c2956050-306c-4f42-87bd-600b0d8472d1" width='400'>  | <img width='400'  src="https://github.com/tusharsgh/koinex/assets/72065122/e88f9e4a-a158-423d-8a1f-db0bc1810c57">  |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/c2956050-306c-4f42-87bd-600b0d8472d1" width='800'>  | <img width='800'  src="https://github.com/tusharsgh/koinex/assets/72065122/e88f9e4a-a158-423d-8a1f-db0bc1810c57">  |
 
 ---
 
 |  **GroupChat-Creation** | **GroupChat** |
 | :-------------: | :-------------: |
-| <img src="https://github.com/tusharsgh/koinex/assets/72065122/3f8dccdc-b7df-4bda-a4a0-db21caecf2c9" width='400'>  | <img src="https://github.com/tusharsgh/koinex/assets/72065122/c792a893-dbe1-4981-9f46-427bfa37f62a" width='400'>  |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/3f8dccdc-b7df-4bda-a4a0-db21caecf2c9" width='800'>  | <img src="https://github.com/tusharsgh/koinex/assets/72065122/c792a893-dbe1-4981-9f46-427bfa37f62a" width='800'>  |
 
 ---
 |  **VideoCall-Request** | **VideoCall** |
 | :-------------: | :-------------: |
-| <img src="https://github.com/tusharsgh/koinex/assets/72065122/91fed22a-a3fb-40bc-b091-90731e259794" width='400'>  | <img width='400'  src="https://github.com/tusharsgh/koinex/assets/72065122/bdce74bb-f255-4b09-a328-0e19c4a7d89e">  |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/91fed22a-a3fb-40bc-b091-90731e259794" width='800'>  | <img width='800'  src="https://github.com/tusharsgh/koinex/assets/72065122/bdce74bb-f255-4b09-a328-0e19c4a7d89e">  |
 
 ---
 |  **File-sending preview** | **File-sent** |
 | :-------------: | :-------------: |
-| <img src="https://github.com/tusharsgh/koinex/assets/72065122/1f1e954e-adf0-4eeb-a407-6bd7929adc7a" width='400'>  | <img width='400'  src="https://github.com/tusharsgh/koinex/assets/72065122/cb996ae5-9f61-4c5c-ac6a-6adba6957087">  |
+| <img src="https://github.com/tusharsgh/koinex/assets/72065122/1f1e954e-adf0-4eeb-a407-6bd7929adc7a" width='800'>  | <img width='800'  src="https://github.com/tusharsgh/koinex/assets/72065122/cb996ae5-9f61-4c5c-ac6a-6adba6957087">  |
 
 ---
 
